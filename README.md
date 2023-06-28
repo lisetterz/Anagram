@@ -11,6 +11,13 @@ Given two strings, determine if these are anagrams of each other. Two strings ar
 Go 1.20
 
 # How to run
-Clone or download this repository and go to its loctation,  then run the below command:
+Clone or download this repository and go to its loctation...
+
+To run tests, run the below command:
+``` go test```
+
+To run the program, run the below command:
 
 ``` go run .```
+
+Then type the first and second phrase accordingly.

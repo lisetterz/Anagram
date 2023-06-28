@@ -8,12 +8,12 @@ import (
 )
 
 func main() {
-	fmt.Println("Welcome to the anagram prgram!\n Please enter the phrase:")
+	fmt.Println("Welcome to the anagram prgram!\n Please enter the first phrase:")
 
 	reader := bufio.NewReader(os.Stdin)
 	word, _ := reader.ReadString('\n')
 
-	fmt.Println("Please enter the secod phrase")
+	fmt.Println("Please enter the second phrase")
 	reader = bufio.NewReader(os.Stdin)
 	word2, _ := reader.ReadString('\n')
 

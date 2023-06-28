@@ -41,7 +41,6 @@ func isAnagram(word, word2 string) bool {
 	charsMap2 := charToMap(chars2)
 
 	//compare maps
-	//	return reflect.DeepEqual(charsMap, charsMap2)
 	return eq(charsMap, charsMap2)
 }
 

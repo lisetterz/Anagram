@@ -6,13 +6,12 @@ anagrams of each other, if, and only if, they contain all the same characters th
 amount of times.
 a. Examples: heart and earth, cars and scar, star and rats
 b. Additionally, the following test case MUST pass:
-i. “Tom Marvolo Riddle” -&gt; “I am Lord Voldemort”
+i. “Tom Marvolo Riddle” -> “I am Lord Voldemort”
+
+# Dependencies
+Go 1.20
 
 # How to run
-Clone or download this repository and run the below command:
+Clone or download this repository and go to its loctation,  then run the below command:
 
-''' go build '''
-
-Then  run the below command
-
-''' go run .'''
+``` go run .```
